@@ -1,0 +1,22 @@
+.inputAdress{
+    text-align: center;
+    border-radius: 25px;
+    width: 65%;
+    height: 45px;
+   
+   
+}
+.inputName{
+    text-align:center;
+    border-radius: 25px;
+    width: 65%;
+    height: 45px;
+    margin-left: 30px;
+    margin: 30px;
+}
+.modaltitle p{
+    text-align: center;
+}
+.modal-content{
+    margin-top: 6%;
+}

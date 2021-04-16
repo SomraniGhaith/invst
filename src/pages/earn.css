@@ -1,0 +1,366 @@
+.responsive-table li {
+    border-radius: 45px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px
+}
+
+.table-header {
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .03em
+}
+
+.table-row {
+    border: 2px solid #fff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+    color: #fff;
+}
+.coin{
+display: flex;
+}
+
+@media all and (max-width:767px) {
+    .table-header {
+        display: none
+    }
+    li {
+        display: block
+    }
+    .col {
+        flex-basis: 100%;
+        display: flex;
+        padding: 5px 0
+    }
+    .col:before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right
+    }
+}
+
+.icon {
+    width: 20%;
+}
+
+.titre-el1 {
+    flex-direction: column;
+   
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.titre-el3 {
+   
+    border-radius: 10px;
+    padding-top: 20px;
+   
+}
+
+.sous-titre {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+
+}
+.sous-titre1 {
+   display: flex;
+   margin-left: 5rem;
+    
+
+
+}
+.sous-titre2 {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.titre-el2 {
+    display: flex;
+   
+    margin-top: 22px;
+    border-bottom: 0.08rem solid #ccc7c7;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.text-color {
+    color: white;
+}
+.styleImageCoin{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+.deposit {
+    width: 20rem;
+    border-radius: 2rem;
+    height: 3rem;
+    background: black;
+    color:green;
+}
+
+.deposit-lab {
+    font-size: 14px;
+    color: rgba(43,57,84,.5);
+    font-weight: 700;
+
+}
+.btn-pourcentage{
+    background: transparent;
+    font-weight: bold;
+    color: #001961c7;
+    font-size: 19px;
+}
+
+
+/*.bt-color {
+    width: 187px;
+    color: rgb(51, 207, 64);
+    border-radius: 7px;
+}*/
+
+#bt1 {
+    height: 35px;
+    width: 14rem;
+    color: rgb(51, 207, 64);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: 800;
+    font-size: 17px;
+    margin: 20px;
+}
+
+#bt2 {
+    height: 35px;
+    width: 193px;
+    color: rgb(51, 207, 64);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    /*margin-top: 74px;*/
+
+}
+#bt3 {
+    height: 35px;
+    width: 193px;
+    color: red ;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: bold;
+}
+
+
+
+/*.strategy {
+    background-color: white;
+    border-style: 2px solid;
+}*/
+
+.deposit-strategy {
+    padding-top: 27px;
+    padding-left: 53px;
+}
+
+.titre-transparent {
+    color: #2c1919d9;
+    text-align: center;
+   
+}
+
+.titre2-transparent {
+    color: #2c1919d9;
+    
+}
+input {
+   text-align: center;
+}
+.earncarddetails {
+    display: flex;
+    background: none;
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+.sous-titre1 li {
+    border-radius: 45px;
+    padding: 25px 30px;
+   
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+
+#strategydetails{
+    display: inline;
+    padding: 0;
+    
+    text-align: start;
+}
+.earncardexchange{
+    background-color: white;
+    border-radius: 2rem;
+ 
+
+}
+.earncard{
+width: 100%;
+
+}
+.approveloading{
+    height: 35px;
+    width: 14rem;
+    color: rgb(207, 51, 51);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: 800;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 25%;
+
+}
+
+
+.approveloading1{
+    height: 35px;
+    width: 14rem;
+    color: rgb(207, 51, 51);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: 800;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 25%;
+    
+}
+
+
+
+.accordion-title{
+    font-size: 28px;
+    font-family: 'Open Sans';
+}
+.accordion-info{
+    font-size: 24px;
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.btn-filter:active{
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124
+}  
+
+.yiled-info{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-strategies{
+    display: flex;
+}
+.info-deposit-withdraw{
+    display: flex;
+}
+
+@media  (max-width: 485px) {
+
+
+    .yiled-info{
+       display: block;
+       
+    }
+    .filter-strategies{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .lead{
+        font-size: 14px;
+    }
+
+    .accordion-title {
+        font-size: 14px;
+        font-family: 'Open Sans';
+    }
+    .accordion-info {
+        font-size: 12px;
+        font-family: 'Open Sans';
+        color: white;
+    }
+    .metamask-info{
+        text-align: center;
+    }
+
+
+
+    
+
+
+    .deposit-lab {
+        font-size: 7px;
+        color: rgba(43,57,84,.5);
+        font-weight: 700;
+    
+    }
+    .sous-titre2 {
+        display: flex;
+        margin-left: 7px;
+    }
+
+    .titre2-transparent {
+        color: #2c1919d9;
+        font-size: 8px;
+        
+    }
+
+    .titre-el2 h3 {
+        font-size: 12px;
+    }
+    .info-deposit-withdraw{
+        display: block;
+    }
+     .col-6{
+        flex: 0 0 50%;
+        max-width: inherit;
+    }
+    .deposit {
+        width: 15rem;
+        border-radius: 2rem;
+        height: 3rem;
+        background: black;
+        color: green;
+    }
+
+    .styleImageCoin {
+        width: 35px;
+        height: 36px;
+        margin-right: 6px;
+        margin-top: -3px;
+    }
+    .filter-button{
+        margin: 2px;
+    }
+
+}

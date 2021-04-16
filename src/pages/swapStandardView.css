@@ -1,0 +1,187 @@
+.colorBlack{
+    background-color: black;
+}
+.dropdownMenu{
+    background-color: black;
+    min-width: 8rem;
+}
+.dropdownSwap{
+    display: flex;
+    justify-content: space-between
+}
+.blockApprove{
+    display: flex;
+  
+}
+.classSwapButton{
+    display:flex;
+    justify-content: center;
+}
+.allowances{
+    display: flex; 
+   
+}
+.classCurrency{
+    display: inline-grid;
+    margin-right: 50px; 
+}
+.inputCurrency{
+    display: flex;
+    justify-content: center;
+    width: 89px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #FFFFFF;
+    
+}
+.buttonInverseInput{
+    background-color:transparent;
+     color: #0960e2;
+}
+.clasAllowed{
+    font-size: 10px;
+     color: red;
+}
+.textConcel{
+    background: none;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.styleApproveInput{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    padding: 10px;
+}
+.editPan{
+    
+width: 32px;
+height: 32px;
+color: rgb(22, 98, 240);
+}
+.fontText{
+    font-family: 'Open Sans';
+}
+.styleCaract{
+   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px
+}
+.liquidity{
+    color: white;
+    font-size: 20px;
+    background-color: #393E46;
+    border-radius: 5px;
+    padding: 10px
+}
+.buttonInverse{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 5;
+    margin-top: 5%;
+}
+.classApprove{
+    display: flex;
+    position:absolute;
+width: 25%;
+height: 80px;
+background: #0C0C0C;
+border: 1px solid #202226;
+box-sizing: border-box;
+display: flex;
+padding: 9px;
+}
+.currencyLimit{
+width: 198px;
+height: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.inputApprove{
+    width: 210px;
+    height: 42px;
+    font-size: larger;
+    /* font-weight: bold; */
+    color: #4ec6c2;
+    width: 210px;
+    height: 42px;
+    background: #0e131b;
+    border: #0e131b;
+}
+
+.styleCurrency{
+    position: absolute;
+width: 198px;
+height: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+}
+
+
+@media  (max-width: 485px) {
+
+
+    .styleApproveInput {
+        display: flex;
+        justify-content: space-around;
+       
+        padding: 10px;
+    }
+
+    .blockApprove{
+     
+    }
+
+    .currencyLimit {
+        width: 137px;
+        height: 30px;
+       
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+    .inputApprove {
+       
+        font-size: larger;
+        /* font-weight: bold; */
+        color: #4ec6c2;
+        width: 137px;
+        height: 42px;
+        background: #0e131b;
+        border: #0e131b;
+    }
+    .classCurrency{
+        display: inline-grid;
+        margin-right: 5px; 
+    }
+
+
+}

@@ -1,0 +1,100 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+}
+
+.content {
+    margin-top: 8%;
+}
+
+.carditem1 {
+    border: 0.03em solid white;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 3rem;
+    margin-top: 1%;
+}
+
+.carditemhead h2 {
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.carditemdetails {
+    margin-left: 6%;
+    width: 100%;
+    margin: 5%;
+}
+
+.carditemconvert {
+  
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+    width: 30%;
+}
+
+.carditemconvert1 {
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+    width: 30%;
+}
+
+.box {
+    border: 1px solid white;
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+}
+.box1 {
+   
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+}
+
+.carditem1 {
+    border: 0.03em solid white;
+}
+
+.novarating {
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 3%;
+    color: white;
+}
+
+.bg-violet {
+    background-color: violet
+}
+
+hr {
+    background-color: white;
+    width: 100%;
+}
+
+.carditemhead1 h2 {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.carditemhead1 {
+    width: 50%;
+}
+
+
+.btnconvert{
+    font-Size:"20px";
+    font-Weight:"bold"
+}

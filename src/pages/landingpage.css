@@ -1,0 +1,261 @@
+.nova-title{
+    font-size: 77px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: white;
+}
+
+
+    .landing-info {
+        color: white;
+        font-size: 26px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+    }
+.landing-mail{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(173 103 235);
+    width: 100px;
+
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    justify-content: center; 
+}
+
+
+.subscribe-form input {
+    background-color: white;
+    border: 0;
+    height: 60px;
+    padding: 10px 20px;
+    margin-right: 5px;
+    color: black;
+    font-size: 15px;
+    border-radius: 50px;
+    z-index: 100;
+    width: 40%;
+    
+}
+.btn-welcome {
+    background-color: #965FD7;
+    border-radius: 50px;
+    padding: 15px;
+    width: 40%;
+    font-size: 24px;
+    font-weight: 400;
+    border: 0;
+}
+
+.linkblock {
+    margin-top: 15px;
+}
+
+.social-link {
+    margin: 15px;
+    color: white;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
+.subscribe-form .btn {
+}
+
+.subscribe-form input.radius-no {
+    border-radius: 50px !important;
+}
+
+.subscribe-form .btn {
+    height: 60px;
+}
+
+.subscribe-form .input-group-btn {
+    margin-left: -30px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+.ribbon{
+  line-height: .8em;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,.15);
+  letter-spacing: -2px;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(to bottom, #999999 0%,#CCCCCC 100%);
+  color: white;
+ margin: 0 10px;
+  float: left;
+  padding-top: 1rem;
+  position: relative;
+  ;
+  transform: translate3d(0, 0, 0) }
+ 
+  
+  .ribbon:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 2rem solid transparent;
+    border-left: 2rem solid transparent;
+    border-top: 1.5rem solid #CCCCCC;
+    position: absolute;
+    top: 4rem;
+    left: 0;}
+    
+    .ribbon--purple{
+    background: #8d5cbb}
+    .ribbon--purple:after{
+      border-top: 1.5rem solid #8d5cbb }
+ 
+
+    .landing-mail img {
+        width: 45px;
+        margin-left: 15px;
+    }  
+    a {
+        text-decoration: underline;
+    }
+   
+    @media  (max-width: 485px) {
+
+        .display-2 img {
+           margin-top: 60px;
+            width: 12%;
+        }
+        .subscribe-form input {
+            background-color: white;
+            border: 0;
+            height: 60px;
+            padding: 10px 20px;
+            margin-right: 5px;
+            color: black;
+            font-size: 15px;
+            border-radius: 50px;
+            z-index: 100;
+            width: 70%;
+        }
+
+        .landing-mail{
+            border-radius: 0px 50px 50px 0px;
+            background: rgb(173 103 235);
+            width: 80px;
+        
+        }
+        .landing-info {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Open Sans';
+        }
+    
+
+    }
+   
+     .validatemodal .modal-content{
+      background-color: rgb(13, 21, 31);
+      height: 200px;
+      margin-top: 50%;
+      
+  }
+
+  .modal-confirm {		
+	color: #434e65;
+	width: 525px;
+}
+.modal-confirm .modal-content {
+	padding: 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-confirm .modal-header {
+	background: #e85e6c;
+	border-bottom: none;   
+	position: relative;
+	text-align: center;
+	margin: -20px -20px 0;
+	border-radius: 5px 5px 0 0;
+	padding: 35px;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 36px;
+	margin: 10px 0;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-confirm .close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #fff;
+	text-shadow: none;
+	opacity: 0.5;
+}
+.modal-confirm .close:hover {
+	opacity: 0.8;
+}
+.modal-confirm .icon-box {
+	color: #fff;		
+	width: 95px;
+	height: 95px;
+	display: inline-block;
+	border-radius: 50%;
+	z-index: 9;
+	border: 5px solid #fff;
+	padding: 15px;
+	text-align: center;
+}
+.modal-confirm .icon-box i {
+	font-size: 58px;
+	margin: -2px 0 0 -2px;
+}
+.modal-confirm.modal-dialog {
+	margin-top: 80px;
+}
+.modal-confirm .btn, .modal-confirm .btn:active {
+	color: #fff;
+	border-radius: 4px;
+	background: #eeb711 !important;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border-radius: 30px;
+	margin-top: 10px;
+	padding: 6px 20px;
+	min-width: 150px;
+	border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+	background: #eda645 !important;
+	outline: none;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+
+.btn-tryagain{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: white;
+    background: none;
+    font-weight: 500;
+}

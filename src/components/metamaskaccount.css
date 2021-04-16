@@ -1,0 +1,178 @@
+.dropdown-menu{
+    position: absolute;
+    transform: translate3d(-221px, 25px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;}
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 19rem;
+        padding: .5rem 0;
+        padding-left: 10px;
+        margin: .125rem 0 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #f7f8fa;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: .25rem;}
+
+
+        .slippagetolerance{background-color: red;}
+        .balence {
+            background-color: #393e46;
+            /*  width: 60%; */
+            border-radius: 0.3rem;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        .balanceeth{
+            margin: 12px;
+            border: 2px solid;
+            padding: 5px;
+            border-radius: 30px;
+            color: white;
+        }
+        .balance2 {
+            border: 2px solid white;
+             border-radius: 0.3rem;
+             color: white;
+             padding: 4px;
+             margin: 1px;
+             text-align: center;
+         }
+          .balanceaccount{
+            border: 2px solid white;
+            border-radius: 0.3rem;
+            color: white;
+            padding: 4px;
+            margin: 1px;
+            text-align: center;
+
+          }
+         .settingbalence {
+            background-color: #393e46;
+            border-radius: 0.3rem;
+            width: 30px;
+           border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 8px 3px 8px;
+        }
+        .netid{
+            border: 2px solid white;
+            border-radius: 0.3rem;
+            color: white;
+            padding: 4px;
+            margin: 2px;
+            font-weight: bold;
+            text-align: center;
+        }
+        @media  (max-width: 411px) {
+            .balence {
+            background-color: none;
+            }
+            .netid{
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+                padding: 4px;
+                margin: 2px;
+                font-size: 14px;
+               
+                text-align: center;
+                font-family: "Open Sans"
+                
+            
+            }
+            .balanceaccount{
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+                padding: 4px;
+                font-size: 14px;
+                text-align: center;
+                /* width: 50px; */
+                /* background-color: red; */
+                margin: 1px;
+                font-family: "Open Sans"
+    
+              }
+              .balance2 {
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+                padding: 4px;
+                margin: 1px;
+                font-size: 14px;
+                text-align: center;
+                font-family: "Open Sans"
+                }
+
+            
+          
+          }
+
+
+          @media  (max-width: 381px) {
+            .balence {
+           
+            display: flex;
+            }
+            .netid{
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+               padding-top: 10px;
+                margin: 2px;
+                font-size: 12px;
+                font-family: "Open Sans";
+                text-align: center;
+                
+            
+            }
+            .balanceaccount{
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+               padding-top: 10px;
+                font-size: 12px;
+                text-align: center;
+                font-family: "Open Sans";
+              
+                margin: 1px;
+    
+              }
+              .balance2 {
+                border: 2px solid white;
+                border-radius: 0.3rem;
+                color: white;
+                padding: 4px;
+                margin: 1px;
+                font-size: 14px;
+                font-family: "Open Sans";
+                text-align: center;
+                }
+                .settingbalence {
+                    background-color: none;
+                    border-radius: 0.3rem;
+                    width: 30px;
+                   border: 2px solid white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 2px 8px 3px 8px;
+                    margin: 5px;
+                }
+          
+          
+          }

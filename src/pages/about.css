@@ -1,0 +1,144 @@
+#wrapper #sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #edeff0;
+    color: #393e46;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li {
+    text-indent: 15px;
+    line-height: 50px;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li a:focus,
+#wrapper #sidebar-wrapper .sidebar-nav li a:hover,
+#wrapper #sidebar-wrapper .sidebar-nav li .active {
+    background-color: #fff;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li a span {
+    display: initial;
+    margin-left: 15px;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li.dropdown ul.dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav li.dropdown ul.dropdown-menu li a {
+    line-height: 40px;
+    padding-left: 45px;
+}
+
+#wrapper #page-content-wrapper {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    padding: 15px;
+    padding-left: 250px;
+    background-color: #fff;
+}
+/* folded */
+
+#wrapper.aside-folded #sidebar-wrapper {
+    width: 60px;
+    overflow-x: hidden;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li {
+    position: relative;
+    display: block;
+    text-indent: 10px;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li a span {
+    display: none;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li.dropdown ul.dropdown-menu {
+    padding: 0;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li.dropdown ul.dropdown-menu li a {
+    line-height: 40px;
+    padding-left: 45px;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li.dropdown.open {
+    background-color: crimson;
+}
+
+#wrapper.aside-folded #sidebar-wrapper .sidebar-nav li.dropdown.open ul.dropdown-menu {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 100%;
+    z-index: 99;
+    width: 200px;
+    height: auto;
+    background-color: purple;
+    margin-left: 0;
+}
+
+#wrapper.aside-folded #page-content-wrapper {
+    padding-left: 60px;
+}
+
+h1 {
+    color: #393e46;
+}
+
+blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    /*Borders - (Optional)*/
+    border-left: 1px solid #ccc;
+}
+
+blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+}
+
+blockquote a {
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #ccc;
+}
+
+blockquote a:hover {
+    color: #ccc;
+}
+
+blockquote em {
+    font-style: italic;
+}

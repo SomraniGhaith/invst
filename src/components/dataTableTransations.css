@@ -1,0 +1,128 @@
+.DataTablePage .dataTables_info,
+.DataTablePage div[data-test="datatable-info"],
+.DataTablePage thead[data-test="table-foot"] {
+  display: none;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] {
+  margin: 0 auto;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul {
+  justify-content: center !important;
+}
+.custom-select {
+  margin-top: 7%;
+  padding: 0px 3px !important;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li {
+  border-radius: 2px;
+  /* border: solid 1px #d1d1d3; */
+  border-right: unset;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li:first-child,
+.DataTablePage div[data-test="datatable-pagination"] ul li:last-child {
+  width: 100px;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li:first-child a,
+.DataTablePage div[data-test="datatable-pagination"] ul li:last-child a {
+  text-align: center;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li.active a {
+  background-color: #162033 !important;
+  border-color: #162033;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li a {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #162033;
+  cursor: pointer;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li:not(:last-child) a {
+  border-right: 0;
+}
+
+.DataTablePage div[data-test="datatable-pagination"] ul li.active ~ li a {
+  color: #2176ae !important;
+}
+
+.DataTablePage tbody td,
+.DataTablePage thead th {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+}
+
+.DataTablePage tbody td:last-child button {
+  height: 30px;
+  background: transparent;
+  border: none;
+}
+
+.DataTablePage tbody td:last-child button i {
+  font-size: 20px;
+  color: #87785a;
+}
+
+.DataTablePage div[data-test="datatable-table"] thead th {
+  font-weight: bold;
+}
+
+.DataTablePage .dataTables_length.bs-select select {
+  text-align: center;
+  color: #b5b5b5;
+  height: 40px;
+  border-radius: 2px;
+  border: solid 1px #c5c5c5;
+  margin-left: 10px !important;
+  width: 115%;
+  color: #3f413f;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: none;
+}
+
+.DataTablePage div[data-test="datatable-search"] {
+  padding-right: 25px;
+}
+
+.DataTablePage div[data-test="datatable-search"] input {
+  height: 40px;
+  border-radius: 2px;
+  border: solid 1px #c5c5c5;
+  box-shadow: none !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: #000000;
+}
+
+.DataTablePage div[data-test="datatable-search"] input::placeholder {
+  color: #b5b5b5;
+}
+
+.DataTablePage .dataTables_wrapper > .row:first-child {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}

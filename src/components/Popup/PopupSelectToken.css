@@ -1,0 +1,100 @@
+
+
+.optionsslecttoken{
+color: white;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+margin: 10px;
+
+}
+.selecttokenbtn{
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3.2rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(33, 36, 41);
+    color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    padding: 0px 0.5rem;
+    width: 100%;
+}
+.modal-content{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #353434;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal-content .modaltitle{
+    display: flex;
+    justify-content: space-between;
+    background-color: #353434;
+    color: white;
+    padding: 18px;
+    
+}
+.modal-content .modaltitle .close{
+    background-color: transparent
+}
+.modal-content .modaltitle p{
+    font-size: larger;
+    font-weight: bold 
+}
+.modal-content .modalbody {
+    display: grid;
+    background-Color: #353434; 
+    height: 38rem;
+    margin: 15px;
+}
+.search .inputSearch{
+text-align: center;
+border-radius: 25px;
+width: 65%;
+height: 45px;
+margin-left: 30px;
+margin: 30px
+}
+.addToken{
+    text-align: center
+}
+.addToken .addCoin .divAddCoin .inputAdress{
+    text-align: center;
+    border-radius: 25px;
+    width: 65%;
+    height: 45px;
+    margin-left: 30px;
+    margin: 30px
+}
+.addToken .addCoin .divAddCoin .inputNameCoin{
+    text-align: center;
+    border-radius: 25px;
+    width: 65%;
+    height: 45px
+}
+.addToken .addCoin .divAddCoin{
+    margin-bottom: 10px 
+}
+.addToken .addCoin h2{
+    color: red
+}
+.listCoin .itemCoin .body{
+    display: flex;
+    justify-content: space-between
+}
+.listCoin{
+    width: 100%;
+}

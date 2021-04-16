@@ -1,0 +1,122 @@
+:root {
+    --main-color1: #212429;
+    --border-color: #2c2f36;
+    --border-radius: 25px;
+    --label-color: #c3c5cb;
+    --input-color: #3d404b;
+    --background: #393e46
+}
+
+.SwapComponent {
+    background: var(--main-color1);
+    width: 500px;
+    margin: 50px auto;
+    border-radius: var(--border-radius);
+    padding: 30px
+}
+
+.SwapComponent .swapFrom, .SwapComponent .swapTo {
+    border: solid 2px var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 15px;
+}
+
+.SwapComponent .swapFrom .info, .SwapComponent .swapTo .info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.SwapComponent .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SwapComponent label, .SwapComponent .balance {
+    color: var(--label-color)
+}
+
+.SwapComponent .inputContainer input {
+    background: transparent;
+    border: none;
+    color: var(--label-color);
+    text-align: left;
+    font-weight: 600;
+}
+
+.SwapComponent .inputContainer input::placeholder {
+    color: var(--input-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+.SwapComponent .inputContainer input::-webkit-outer-spin-button, .SwapComponent .inputContainer input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+.SwapComponent .inputContainer input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.SwapComponent .selectToken {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #dc3aeb;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.SwapComponent .selectToken.selected {
+    background: transparent
+}
+
+.SwapComponent .selectToken .maxBalance {
+    background: #1c2e47;
+    color: #6da8ff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+
+.SwapComponent .selectToken .tokenImage {
+    width: 30px
+}
+
+.SwapComponent .selectToken .tokenName {
+    margin: 0px 7px;
+    text-transform: uppercase;
+}
+
+.SwapComponent .moreInfo {
+    margin: 15px 0;
+}
+
+.SwapComponent .moreInfo .info {
+    color: var(--label-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.SwapComponent .swapButton {
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    background: var(--background);
+    color: var(--label-color)
+}
+
+.SwapComponent .separator {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.SwapComponent .separator i {
+    color: #2068cf;
+    margin: auto;
+}

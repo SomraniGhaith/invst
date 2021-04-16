@@ -1,0 +1,138 @@
+.header1{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+}
+
+.contentearn2{
+    margin: 2%;
+   
+}
+
+.carditem2{
+    border: 0.03em solid white;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 3rem;
+    margin-top: 1%;
+    width: 100%;
+}
+
+
+.carditemhead h2 {
+    margin-left: 7%;
+    margin-top: 2%;
+
+}
+
+.carditemdetails{
+   
+    margin-left: 6%;
+    width: 100%;
+    margin: 5%;
+    
+}
+
+.carditemconvert{
+   
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+    width: 30%;
+
+}
+
+.carditemconvert1{
+   
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+    width: 30%;
+
+}
+
+.box{
+    border: 1px solid white;
+    height: 11%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 2%;
+    text-align: center;
+   
+}
+
+
+.carditem1{
+    border: 0.03em solid white;
+}
+
+.novarating{
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 3%;
+    color: white;
+}
+.bg-violet{
+    background-color: violet
+}
+
+hr{
+   background-color: white;
+   width: 100%;
+}
+
+.carditemhead1 h2{
+    margin-left: 10%;
+    margin-top: 8%;
+
+
+}
+.carditemhead1{
+    width: 50%;
+}
+
+.depositearn2 {
+    width: 60%;
+    border-radius: 2rem;
+    height: 3rem;
+    margin-left: 20%;
+}
+
+#bt1earn2 {
+    height: 35px;
+    width: 50%;
+    color: rgb(51, 207, 64);
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: 800;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 30%;
+}
+
+#bt3earn2 {
+    height: 35px;
+    width: 193px;
+    color: red ;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.titre-transparent {
+    color: #2c1919d9;
+    text-align: center;
+   
+}

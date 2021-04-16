@@ -1,0 +1,306 @@
+{
+  "contractName": "MockMintr",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "a",
+          "type": "address"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"a\",\"type\":\"address\"}],\"name\":\"mint\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jawaher/tmp/harvest/contracts/test/MockMint.sol\":\"MockMintr\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":150},\"remappings\":[]},\"sources\":{\"/home/jawaher/tmp/harvest/contracts/strategies/curve/interfaces/Gauge.sol\":{\"keccak256\":\"0x7f16571137a960de2dc4afa7c738e217e7a065256e8f68530ba644519efc056f\",\"urls\":[\"bzz-raw://7141fc174990e5bf0392d663bae85d64e89af01e18a8165123f11e3f213f6fc8\",\"dweb:/ipfs/QmdhYcRYr8L8je6FnUcSt78XwTkn5R4TA2MwM4qSVHoAUZ\"]},\"/home/jawaher/tmp/harvest/contracts/test/MockMint.sol\":{\"keccak256\":\"0x1e76316123d30e13e32a371f578bb2895b6d839be75cb949eeb757789d049e22\",\"urls\":[\"bzz-raw://6eacad34d4fb91dd1de744cdfcbbb25beb984c49535f1472f54e133d4c791b1e\",\"dweb:/ipfs/QmYc6U9EMvJ7k6pQV1GB4CUK9ZuXkb9y3cJjhkvfnePbdZ\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50608a8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636a62784214602d575b600080fd5b605060048036036020811015604157600080fd5b50356001600160a01b03166052565b005b5056fea265627a7a72315820ca228e5d649abdd90cdc173958e5e3701b8d734a13531c97fb8c7c17fc373cb464736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80636a62784214602d575b600080fd5b605060048036036020811015604157600080fd5b50356001600160a01b03166052565b005b5056fea265627a7a72315820ca228e5d649abdd90cdc173958e5e3701b8d734a13531c97fb8c7c17fc373cb464736f6c63430005100032",
+  "sourceMap": "77:70:62:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;77:70:62;;;;;;;",
+  "deployedSourceMap": "77:70:62:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;77:70:62;;;;;;;;;;;;;;;;;;;109:36;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;109:36:62;-1:-1:-1;;;;;109:36:62;;:::i;:::-;;;;:::o",
+  "source": "pragma solidity 0.5.16;\n\nimport \"../strategies/curve/interfaces/Gauge.sol\";\n\ncontract MockMintr is Mintr {\n  function mint(address a) external {}\n}\n",
+  "sourcePath": "/home/jawaher/tmp/harvest/contracts/test/MockMint.sol",
+  "ast": {
+    "absolutePath": "/home/jawaher/tmp/harvest/contracts/test/MockMint.sol",
+    "exportedSymbols": {
+      "MockMintr": [
+        15617
+      ]
+    },
+    "id": 15618,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 15607,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:62"
+      },
+      {
+        "absolutePath": "/home/jawaher/tmp/harvest/contracts/strategies/curve/interfaces/Gauge.sol",
+        "file": "../strategies/curve/interfaces/Gauge.sol",
+        "id": 15608,
+        "nodeType": "ImportDirective",
+        "scope": 15618,
+        "sourceUnit": 14627,
+        "src": "25:50:62",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 15609,
+              "name": "Mintr",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 14626,
+              "src": "99:5:62",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Mintr_$14626",
+                "typeString": "contract Mintr"
+              }
+            },
+            "id": 15610,
+            "nodeType": "InheritanceSpecifier",
+            "src": "99:5:62"
+          }
+        ],
+        "contractDependencies": [
+          14626
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 15617,
+        "linearizedBaseContracts": [
+          15617,
+          14626
+        ],
+        "name": "MockMintr",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 15615,
+              "nodeType": "Block",
+              "src": "143:2:62",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 15616,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mint",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 15613,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 15612,
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 15616,
+                  "src": "123:9:62",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 15611,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:7:62",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:11:62"
+            },
+            "returnParameters": {
+              "id": 15614,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "143:0:62"
+            },
+            "scope": 15617,
+            "src": "109:36:62",
+            "stateMutability": "nonpayable",
+            "superFunction": 14625,
+            "visibility": "external"
+          }
+        ],
+        "scope": 15618,
+        "src": "77:70:62"
+      }
+    ],
+    "src": "0:148:62"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/jawaher/tmp/harvest/contracts/test/MockMint.sol",
+    "exportedSymbols": {
+      "MockMintr": [
+        15617
+      ]
+    },
+    "id": 15618,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 15607,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:62"
+      },
+      {
+        "absolutePath": "/home/jawaher/tmp/harvest/contracts/strategies/curve/interfaces/Gauge.sol",
+        "file": "../strategies/curve/interfaces/Gauge.sol",
+        "id": 15608,
+        "nodeType": "ImportDirective",
+        "scope": 15618,
+        "sourceUnit": 14627,
+        "src": "25:50:62",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 15609,
+              "name": "Mintr",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 14626,
+              "src": "99:5:62",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Mintr_$14626",
+                "typeString": "contract Mintr"
+              }
+            },
+            "id": 15610,
+            "nodeType": "InheritanceSpecifier",
+            "src": "99:5:62"
+          }
+        ],
+        "contractDependencies": [
+          14626
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 15617,
+        "linearizedBaseContracts": [
+          15617,
+          14626
+        ],
+        "name": "MockMintr",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 15615,
+              "nodeType": "Block",
+              "src": "143:2:62",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 15616,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mint",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 15613,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 15612,
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 15616,
+                  "src": "123:9:62",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 15611,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:7:62",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:11:62"
+            },
+            "returnParameters": {
+              "id": 15614,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "143:0:62"
+            },
+            "scope": 15617,
+            "src": "109:36:62",
+            "stateMutability": "nonpayable",
+            "superFunction": 14625,
+            "visibility": "external"
+          }
+        ],
+        "scope": 15618,
+        "src": "77:70:62"
+      }
+    ],
+    "src": "0:148:62"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2020-10-19T08:25:32.321Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

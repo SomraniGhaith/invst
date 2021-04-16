@@ -1,0 +1,50 @@
+.bitcoinwallet{
+    background-color: white;
+ max-width: 600px;
+}
+.bitcoinWallet{
+display: flex;
+justify-content: center;
+margin: 4%;
+}
+.bitcoinwallet   .nav-link {
+    display: block;
+    padding: 2rem 5rem;
+    width: 50%;
+    
+    font-size: 24px;
+    font-weight: 300
+}
+.mint{
+  
+    font-size: 24px;
+    font-weight: 300
+}
+
+.input-mint{
+    font-size: 50px;
+    border: 0;
+}
+.infobitcoin{
+   
+    color: #585861;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 30px;
+    border: 1px solid #DBE0E8;
+}
+
+.info-text-bitcoin{
+    font-weight: 500;
+    font-size: 20px;
+    color: #585861;
+    font-family: "Open Sans"
+}
+.dropdownbitcoinbutton{
+    background: #c3c3c3;
+    color: #343a40;
+    font-size: 22px;
+    width: 200px;
+    border: 2px solid white;
+}

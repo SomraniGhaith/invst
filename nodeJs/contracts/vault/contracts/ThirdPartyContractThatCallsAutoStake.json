@@ -1,0 +1,1323 @@
+{
+  "contractName": "ThirdPartyContractThatCallsAutoStake",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_autostake",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "autostake",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "stake",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "exit",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_autostake\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"autostake\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"exit\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"stake\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jawaher/tmp/harvest/contracts/test/ThirdPartyContractThatCallsAutoStake.sol\":\"ThirdPartyContractThatCallsAutoStake\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":150},\"remappings\":[]},\"sources\":{\"/home/jawaher/tmp/harvest/contracts/AutoStake.sol\":{\"keccak256\":\"0xc205d7e4249d397c2d6cedb879e42a4be9b8c1e3e015530b6053fe83b1c52f3f\",\"urls\":[\"bzz-raw://5674e7385f2838b60d835c4b253d8db93f3492a4dff8714dcbbf67a013d156d5\",\"dweb:/ipfs/QmQmeyMquSCyVc3eUJNRYoXPwu4tEwuYTTD6DCEiQKmFVe\"]},\"/home/jawaher/tmp/harvest/contracts/Controllable.sol\":{\"keccak256\":\"0x47ebef9faa932471d5d32c91ddc5fc3cdec20d0cc00b9eb8744e17c6fe1e6aff\",\"urls\":[\"bzz-raw://f0058148854ba3ebd501c1b5f67575272ea5e901910397c8d17cdd65e8b31adf\",\"dweb:/ipfs/QmWfjdJGiHvjmtTfQLfC3Abdh4qCJbc69FUAbxFTzU4yf6\"]},\"/home/jawaher/tmp/harvest/contracts/Governable.sol\":{\"keccak256\":\"0x495cc1154657348d72a00ff4570f8c2a01261677aede1f09094d5608f92c07df\",\"urls\":[\"bzz-raw://b2e232add60f2320e694a6514d9eef7d8c5f3c5c67f56e4aba9515d547c34d10\",\"dweb:/ipfs/Qma9aHqRpX7z67FFU2xDJNvCKeEJEEeYCM8F6C9JQTZf9D\"]},\"/home/jawaher/tmp/harvest/contracts/RewardPool.sol\":{\"keccak256\":\"0xd9afb971aeaee70f4ccb76b06960a85d4bf76aed7bdb05278f28bc4f0c177ea9\",\"urls\":[\"bzz-raw://8285853e13d63bd892624bb9752a9ca6177ccb0a36437639c755f06f4df6d028\",\"dweb:/ipfs/QmaQzuiQ3tqFjGps6wyiCncttdEzbzKTKcGVab6rZT1AN6\"]},\"/home/jawaher/tmp/harvest/contracts/Storage.sol\":{\"keccak256\":\"0xc166927e48863f8892fd750ea2afc4bd7e0576effd96ed207d49049ae31a96cd\",\"urls\":[\"bzz-raw://0301eb245e26558a0bddc0fad856b89cb4829fe124187936178902d440d89d05\",\"dweb:/ipfs/QmRTkzU67L2jfJ64Q2NMNKpPdv9oKxcenF5NpjxxTXJJj8\"]},\"/home/jawaher/tmp/harvest/contracts/hardworkInterface/IController.sol\":{\"keccak256\":\"0xa1a0ba44e82c3d66ba8d41cfa1de755c2608a13138dfb1c5411029004cb1a524\",\"urls\":[\"bzz-raw://702aeba1357d717da8b9fc8c6fd5b6352780317ed4e690697d93f3c22d7d0fa1\",\"dweb:/ipfs/QmbcSMY9sAjWwntQKnKuZo213sKU9R4meXhPZgFf82fyb7\"]},\"/home/jawaher/tmp/harvest/contracts/test/ThirdPartyContractThatCallsAutoStake.sol\":{\"keccak256\":\"0x65c0dcd43f7a75a38eea42310c4c1f4853cb6651922f14ac7fc1d413fdcbe0cd\",\"urls\":[\"bzz-raw://c955cc3459f47b88cad3413642b6f14ae1320ab47e689eadba9b1d3d2b3c525b\",\"dweb:/ipfs/QmZqCs3CA8Ev9Ye3LJHAaYnNtWuRYUZNinMrxtbqbpsm2c\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161028b38038061028b8339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055610226806100656000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806304490c3414610046578063adc9772e1461006a578063e9fad8ee14610098575b600080fd5b61004e6100a0565b604080516001600160a01b039092168252519081900360200190f35b6100966004803603604081101561008057600080fd5b506001600160a01b0381351690602001356100af565b005b610096610196565b6000546001600160a01b031681565b600080546040805163095ea7b360e01b81526001600160a01b0392831660048201526024810185905290519185169263095ea7b3926044808401936020939083900390910190829087803b15801561010657600080fd5b505af115801561011a573d6000803e3d6000fd5b505050506040513d602081101561013057600080fd5b5050600080546040805163534a7e1d60e11b81526004810185905290516001600160a01b039092169263a694fc3a9260248084019382900301818387803b15801561017a57600080fd5b505af115801561018e573d6000803e3d6000fd5b505050505050565b60008054604080516374fd6c7760e11b815290516001600160a01b039092169263e9fad8ee9260048084019382900301818387803b1580156101d757600080fd5b505af11580156101eb573d6000803e3d6000fd5b5050505056fea265627a7a723158207430585fc0c79b69005f7ebb9b1edb83e38193da9a2aea84c3ba265ad776061c64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806304490c3414610046578063adc9772e1461006a578063e9fad8ee14610098575b600080fd5b61004e6100a0565b604080516001600160a01b039092168252519081900360200190f35b6100966004803603604081101561008057600080fd5b506001600160a01b0381351690602001356100af565b005b610096610196565b6000546001600160a01b031681565b600080546040805163095ea7b360e01b81526001600160a01b0392831660048201526024810185905290519185169263095ea7b3926044808401936020939083900390910190829087803b15801561010657600080fd5b505af115801561011a573d6000803e3d6000fd5b505050506040513d602081101561013057600080fd5b5050600080546040805163534a7e1d60e11b81526004810185905290516001600160a01b039092169263a694fc3a9260248084019382900301818387803b15801561017a57600080fd5b505af115801561018e573d6000803e3d6000fd5b505050505050565b60008054604080516374fd6c7760e11b815290516001600160a01b039092169263e9fad8ee9260048084019382900301818387803b1580156101d757600080fd5b505af11580156101eb573d6000803e3d6000fd5b5050505056fea265627a7a723158207430585fc0c79b69005f7ebb9b1edb83e38193da9a2aea84c3ba265ad776061c64736f6c63430005100032",
+  "sourceMap": "53:373:73:-;;;133:72;8:9:-1;5:2;;;30:1;27;20:12;5:2;133:72:73;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;133:72:73;178:9;:22;;-1:-1:-1;;;;;178:22:73;;;-1:-1:-1;;;;;;178:22:73;;;;;;;;;53:373;;;;;;",
+  "deployedSourceMap": "53:373:73:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:373:73;;;;;;;;;;;;;;;;;;;;;;;;;;;;;104:24;;;:::i;:::-;;;;-1:-1:-1;;;;;104:24:73;;;;;;;;;;;;;;209:150;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;;;;;;209:150:73;;;;;;;;:::i;:::-;;363:61;;;:::i;104:24::-;;;-1:-1:-1;;;;;104:24:73;;:::o;209:150::-;293:9;;;270:42;;;-1:-1:-1;;;270:42:73;;-1:-1:-1;;;;;293:9:73;;;270:42;;;;;;;;;;;;:22;;;;;;:42;;;;;;;;;;;;;;;;;:22;:42;;;5:2:-1;;;;30:1;27;20:12;5:2;270:42:73;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;270:42:73;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;;329:9:73;;;319:35;;;-1:-1:-1;;;319:35:73;;;;;;;;;;-1:-1:-1;;;;;329:9:73;;;;319:26;;:35;;;;;;;;;;329:9;;319:35;;;5:2:-1;;;;30:1;27;20:12;5:2;319:35:73;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;319:35:73;;;;209:150;;:::o;363:61::-;402:9;;;392:27;;;-1:-1:-1;;;392:27:73;;;;-1:-1:-1;;;;;402:9:73;;;;392:25;;:27;;;;;;;;;;402:9;;392:27;;;5:2:-1;;;;30:1;27;20:12;5:2;392:27:73;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;392:27:73;;;;363:61::o",
+  "source": "pragma solidity 0.5.16;\n\nimport \"../AutoStake.sol\";\n\ncontract ThirdPartyContractThatCallsAutoStake {\n\n  address public autostake;\n\n  constructor(address _autostake) public {\n    autostake = _autostake;\n  }\n\n  function stake(address _token, uint256 _amount) public {\n    IERC20(_token).approve(autostake, _amount);\n\n    AutoStake(autostake).stake(_amount);\n  }\n\n  function exit() public {\n    AutoStake(autostake).exit();\n  }\n}",
+  "sourcePath": "/home/jawaher/tmp/harvest/contracts/test/ThirdPartyContractThatCallsAutoStake.sol",
+  "ast": {
+    "absolutePath": "/home/jawaher/tmp/harvest/contracts/test/ThirdPartyContractThatCallsAutoStake.sol",
+    "exportedSymbols": {
+      "ThirdPartyContractThatCallsAutoStake": [
+        16532
+      ]
+    },
+    "id": 16533,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 16485,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:73"
+      },
+      {
+        "absolutePath": "/home/jawaher/tmp/harvest/contracts/AutoStake.sol",
+        "file": "../AutoStake.sol",
+        "id": 16486,
+        "nodeType": "ImportDirective",
+        "scope": 16533,
+        "sourceUnit": 525,
+        "src": "25:26:73",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 16532,
+        "linearizedBaseContracts": [
+          16532
+        ],
+        "name": "ThirdPartyContractThatCallsAutoStake",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 16488,
+            "name": "autostake",
+            "nodeType": "VariableDeclaration",
+            "scope": 16532,
+            "src": "104:24:73",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 16487,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "104:7:73",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16497,
+              "nodeType": "Block",
+              "src": "172:33:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 16495,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 16493,
+                      "name": "autostake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16488,
+                      "src": "178:9:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 16494,
+                      "name": "_autostake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16490,
+                      "src": "190:10:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "178:22:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 16496,
+                  "nodeType": "ExpressionStatement",
+                  "src": "178:22:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16498,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16491,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 16490,
+                  "name": "_autostake",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16498,
+                  "src": "145:18:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 16489,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:73",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "144:20:73"
+            },
+            "returnParameters": {
+              "id": 16492,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "172:0:73"
+            },
+            "scope": 16532,
+            "src": "133:72:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16520,
+              "nodeType": "Block",
+              "src": "264:95:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16509,
+                        "name": "autostake",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16488,
+                        "src": "293:9:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 16510,
+                        "name": "_amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16502,
+                        "src": "304:7:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16506,
+                            "name": "_token",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16500,
+                            "src": "277:6:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16505,
+                          "name": "IERC20",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 4419,
+                          "src": "270:6:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IERC20_$4419_$",
+                            "typeString": "type(contract IERC20)"
+                          }
+                        },
+                        "id": 16507,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "270:14:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IERC20_$4419",
+                          "typeString": "contract IERC20"
+                        }
+                      },
+                      "id": 16508,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "approve",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4391,
+                      "src": "270:22:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (address,uint256) external returns (bool)"
+                      }
+                    },
+                    "id": 16511,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "270:42:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 16512,
+                  "nodeType": "ExpressionStatement",
+                  "src": "270:42:73"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16517,
+                        "name": "_amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16502,
+                        "src": "346:7:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16514,
+                            "name": "autostake",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16488,
+                            "src": "329:9:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16513,
+                          "name": "AutoStake",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 524,
+                          "src": "319:9:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_AutoStake_$524_$",
+                            "typeString": "type(contract AutoStake)"
+                          }
+                        },
+                        "id": 16515,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "319:20:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AutoStake_$524",
+                          "typeString": "contract AutoStake"
+                        }
+                      },
+                      "id": 16516,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "stake",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 254,
+                      "src": "319:26:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 16518,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "319:35:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 16519,
+                  "nodeType": "ExpressionStatement",
+                  "src": "319:35:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16521,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "stake",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16503,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 16500,
+                  "name": "_token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16521,
+                  "src": "224:14:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 16499,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "224:7:73",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 16502,
+                  "name": "_amount",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16521,
+                  "src": "240:15:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 16501,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "240:7:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "223:33:73"
+            },
+            "returnParameters": {
+              "id": 16504,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "264:0:73"
+            },
+            "scope": 16532,
+            "src": "209:150:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16530,
+              "nodeType": "Block",
+              "src": "386:38:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16525,
+                            "name": "autostake",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16488,
+                            "src": "402:9:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16524,
+                          "name": "AutoStake",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 524,
+                          "src": "392:9:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_AutoStake_$524_$",
+                            "typeString": "type(contract AutoStake)"
+                          }
+                        },
+                        "id": 16526,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "392:20:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AutoStake_$524",
+                          "typeString": "contract AutoStake"
+                        }
+                      },
+                      "id": 16527,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "exit",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 320,
+                      "src": "392:25:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 16528,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "392:27:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 16529,
+                  "nodeType": "ExpressionStatement",
+                  "src": "392:27:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16531,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "exit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16522,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "376:2:73"
+            },
+            "returnParameters": {
+              "id": 16523,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "386:0:73"
+            },
+            "scope": 16532,
+            "src": "363:61:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 16533,
+        "src": "53:373:73"
+      }
+    ],
+    "src": "0:426:73"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/jawaher/tmp/harvest/contracts/test/ThirdPartyContractThatCallsAutoStake.sol",
+    "exportedSymbols": {
+      "ThirdPartyContractThatCallsAutoStake": [
+        16532
+      ]
+    },
+    "id": 16533,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 16485,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:73"
+      },
+      {
+        "absolutePath": "/home/jawaher/tmp/harvest/contracts/AutoStake.sol",
+        "file": "../AutoStake.sol",
+        "id": 16486,
+        "nodeType": "ImportDirective",
+        "scope": 16533,
+        "sourceUnit": 525,
+        "src": "25:26:73",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 16532,
+        "linearizedBaseContracts": [
+          16532
+        ],
+        "name": "ThirdPartyContractThatCallsAutoStake",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 16488,
+            "name": "autostake",
+            "nodeType": "VariableDeclaration",
+            "scope": 16532,
+            "src": "104:24:73",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 16487,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "104:7:73",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16497,
+              "nodeType": "Block",
+              "src": "172:33:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 16495,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 16493,
+                      "name": "autostake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16488,
+                      "src": "178:9:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 16494,
+                      "name": "_autostake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16490,
+                      "src": "190:10:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "178:22:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 16496,
+                  "nodeType": "ExpressionStatement",
+                  "src": "178:22:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16498,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16491,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 16490,
+                  "name": "_autostake",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16498,
+                  "src": "145:18:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 16489,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:73",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "144:20:73"
+            },
+            "returnParameters": {
+              "id": 16492,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "172:0:73"
+            },
+            "scope": 16532,
+            "src": "133:72:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16520,
+              "nodeType": "Block",
+              "src": "264:95:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16509,
+                        "name": "autostake",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16488,
+                        "src": "293:9:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 16510,
+                        "name": "_amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16502,
+                        "src": "304:7:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16506,
+                            "name": "_token",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16500,
+                            "src": "277:6:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16505,
+                          "name": "IERC20",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 4419,
+                          "src": "270:6:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IERC20_$4419_$",
+                            "typeString": "type(contract IERC20)"
+                          }
+                        },
+                        "id": 16507,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "270:14:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IERC20_$4419",
+                          "typeString": "contract IERC20"
+                        }
+                      },
+                      "id": 16508,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "approve",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4391,
+                      "src": "270:22:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (address,uint256) external returns (bool)"
+                      }
+                    },
+                    "id": 16511,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "270:42:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 16512,
+                  "nodeType": "ExpressionStatement",
+                  "src": "270:42:73"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16517,
+                        "name": "_amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16502,
+                        "src": "346:7:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16514,
+                            "name": "autostake",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16488,
+                            "src": "329:9:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16513,
+                          "name": "AutoStake",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 524,
+                          "src": "319:9:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_AutoStake_$524_$",
+                            "typeString": "type(contract AutoStake)"
+                          }
+                        },
+                        "id": 16515,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "319:20:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AutoStake_$524",
+                          "typeString": "contract AutoStake"
+                        }
+                      },
+                      "id": 16516,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "stake",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 254,
+                      "src": "319:26:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 16518,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "319:35:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 16519,
+                  "nodeType": "ExpressionStatement",
+                  "src": "319:35:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16521,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "stake",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16503,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 16500,
+                  "name": "_token",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16521,
+                  "src": "224:14:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 16499,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "224:7:73",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 16502,
+                  "name": "_amount",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 16521,
+                  "src": "240:15:73",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 16501,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "240:7:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "223:33:73"
+            },
+            "returnParameters": {
+              "id": 16504,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "264:0:73"
+            },
+            "scope": 16532,
+            "src": "209:150:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 16530,
+              "nodeType": "Block",
+              "src": "386:38:73",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 16525,
+                            "name": "autostake",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 16488,
+                            "src": "402:9:73",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 16524,
+                          "name": "AutoStake",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 524,
+                          "src": "392:9:73",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_AutoStake_$524_$",
+                            "typeString": "type(contract AutoStake)"
+                          }
+                        },
+                        "id": 16526,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "392:20:73",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AutoStake_$524",
+                          "typeString": "contract AutoStake"
+                        }
+                      },
+                      "id": 16527,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "exit",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 320,
+                      "src": "392:25:73",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 16528,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "392:27:73",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 16529,
+                  "nodeType": "ExpressionStatement",
+                  "src": "392:27:73"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 16531,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "exit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16522,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "376:2:73"
+            },
+            "returnParameters": {
+              "id": 16523,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "386:0:73"
+            },
+            "scope": 16532,
+            "src": "363:61:73",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 16533,
+        "src": "53:373:73"
+      }
+    ],
+    "src": "0:426:73"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2020-10-19T08:25:32.337Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
